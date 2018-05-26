@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converters</title>
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
+    <script src="../js/lengthConverter.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a class="active" href="#home">Measurement Converter</a></li>
+            <li><a href="#next">Mortgage Calculator</a></li>
+        </ul>
+        <hr/>
+
+        <ul id="banner-list">
+            <li><h2 id="banner">Length Converter</h2></li>
+        </ul>
+        <br>
+        <p>Type a value into any of the fields and it will be automatically converted</p>
+            <form>
+                <section>
+                    <div class="inputs-for-measure">
+                        <label>Feet</label>
+                        <input type="number" class="form-control" id="inputFeet" placeholder="Feet"
+                               oninput="convert_lengths(this.id, this.value)" onchange="convert_lengths(this.id, this.value)">
+                    </div>
+                    <div class="inputs-for-measure">
+                        <label>Meters</label>
+                        <input type="number" class="form-control" id="inputMeters" placeholder="Meters"
+                               oninput="convert_lengths(this.id, this.value)" onchange="convert_lengths(this.id, this.value)">
+                    </div>
+                </section>
+                <section>
+                    <div class="inputs-for-measure">
+                        <label>Inches</label>
+                        <input type="number" class="form-control" id="inputInches" placeholder="Inches"
+                               oninput="convert_lengths(this.id, this.value)" onchange="convert_lengths(this.id, this.value)">
+                    </div>
+                    <div class="inputs-for-measure">
+                        <label>Centimeters</label>
+                        <input type="number" class="form-control" id="inputCentimeters" placeholder="Centimeters"
+                               oninput="convert_lengths(this.id, this.value)" onchange="convert_lengths(this.id, this.value)">
+                    </div>
+                </section>
+                <section>
+                    <div class="inputs-for-measure">
+                        <label>Yards</label>
+                        <input type="number" class="form-control" id="inputYards" placeholder="Yards"
+                               oninput="convert_lengths(this.id, this.value)" onchange="convert_lengths(this.id, this.value)">
+                    </div>
+                    <div class="inputs-for-measure">
+                        <label>Kilometers</label>
+                        <input type="number" class="form-control" id="inputKilo" placeholder="Kilometers"
+                               oninput="convert_lengths(this.id, this.value)" onchange="convert_lengths(this.id, this.value)">
+                    </div>
+                </section>
+                <section>
+                    <div class="inputs-for-measure">
+                        <label>Miles</label>
+                        <input type="number" class="form-control" id="inputMiles" placeholder="Miles"
+                               oninput="convert_lengths(this.id, this.value)" onchange="convert_lengths(this.id, this.value)">
+                    </div>
+                </section>
+
+            </form>
+    </div>
+</body>
+</html>

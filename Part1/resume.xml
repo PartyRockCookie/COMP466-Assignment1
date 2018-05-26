@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
+<resume>
+    <Name>
+        <First>William</First>
+        <Last>Ausrotas</Last>
+        <Role>Software Developer</Role>
+    </Name>
+    <ContactInfo>
+        <Phone>705-888-7420</Phone>
+        <Email>wausrotas@gmail.com</Email>
+    </ContactInfo>
+    <Work name="Experience">
+        <Job>
+            <CompanyName>Government of Canada</CompanyName>
+        </Job>
+        <Job>test2</Job>
+    </Work>
+</resume>
